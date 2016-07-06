@@ -1,0 +1,33 @@
+{
+  "name": "sample_project_git_grunt",
+  "version": "1.0.0",
+  "description": "Sample project to learn git and grunt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t09471/grunt-sample-project.git"
+  },
+  "keywords": [
+    "git",
+    "grunt",
+    "sample",
+    "project"
+  ],
+  "author": "tarun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t09471/grunt-sample-project/issues"
+  },
+  "homepage": "https://github.com/t09471/grunt-sample-project#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "jshint": "^2.9.2"
+  }
+}
